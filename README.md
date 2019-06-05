@@ -21,7 +21,7 @@ As mentioned, I use an ajax call to this URL [here]("https://gist.githubusercont
 - the call returns an object that you'll have to Jsonify using `JSON.parse`
 
 ## contributor:
-built by ~[emmanuel macharia](https://github.com/emmanuelmacharia)~
+developed by _[emmanuel macharia](https://github.com/emmanuelmacharia)_
 
 ## License
 this project is licenced under the MIT license
