@@ -1,0 +1,61 @@
+// styles for the random quote generator
+
+$main_fonts: "Trebuchet MS", 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $main_fonts
+}
+
+body{
+    font-family: $main_fonts;
+    a{
+    text-decoration: none;
+    color: inherit;
+    }
+}
+
+.quote-container{
+    background-color: wheat;
+    border: 2px solid black;
+    margin: 20% 25%;
+    box-shadow: 0.5em;
+    padding-top: 2em;
+    .quotestring{
+        font-size: 2em;
+        font-style: normal;
+        font-weight: bold;
+        text-align: center;
+    }
+    #author{
+            margin-top: 2em;
+            font-size: 1em;
+            font-style: italic;
+            font-weight: normal;
+            text-align: end;
+        }
+    button{
+        padding: 0.95em;
+        margin: 2em 0.1em 0 0;
+        color: whitesmoke;
+        background-color: #282c28;
+        cursor: pointer;
+    }
+    #new-quote{
+        margin-left: 50%;
+    }
+}
+
+#new-quote:hover{
+    background-color: #011B38;
+}
+
+#post:hover{
+    background-color: #395794;
+}
+
+#tweet-quote:hover{
+    background-color: #62BDEC;
+}
+
